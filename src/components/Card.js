@@ -1,9 +1,9 @@
 import './Card.css'
 
 const Card = (props) => {
-    const  classes = 'card ' + props.className
+    const  classes = 'card expenses ' + props.className
     return (
-        <div className='card'>{props.children}</div>
+        <div className='card expenses'>{props.children}</div>
     )
 }
 
