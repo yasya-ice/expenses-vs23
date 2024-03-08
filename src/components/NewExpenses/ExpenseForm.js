@@ -1,6 +1,6 @@
 import './ExpenseForm.css'
 import{ useState } from 'react' 
-import ExpensesFilter from './ExpensesFilter'
+import ExpensesFilter from '../Expenses/ExpensesFilter'
 
 const ExpenseForm = (props) => {
     const[enteredTitle, setEnteredTitle] = useState('') 
